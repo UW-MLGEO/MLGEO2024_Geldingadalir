@@ -1,6 +1,7 @@
-# geldingadalir
+# Geldingadalir
 Seismology-focused research for ESS MLGEO
 
-IPA pronounciaion:
+### Pronounciaion
 Geldingadlir:  [ˈkɛltiŋaˌdalɪr̥]
-Fagradalsfjall: [ˈfaɣraˌtalsˌfjatl̥]
+
+<a href="https://en.wikipedia.org/wiki/File:Fagradalsfjall.ogg">Fagradalsfjall</a>: [ˈfaɣraˌtalsˌfjatl̥]
