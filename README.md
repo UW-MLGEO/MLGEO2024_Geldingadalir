@@ -19,7 +19,7 @@ We apply Deep Embedded Clustering (DEC), an unsupervised machine learning techni
 - Step through the code: We will carefully review the workflow to ensure full comprehension of the methods and results.
 - Reproduce results: We will run the provided code to verify that the clustering and phase identification techniques produce consistent results.
 - Apply to new data: Once verified, we will test DEC on new seismic datasets to uncover additional insights.
-- Investigate real-time potential: Ultimately, we aim to explore the possibility of implementing these methods for real-time seismic event monitoring, using insights from the original paper.
+- Investigate real-time potential: Ultimately, we hope to explore the possibility of implementing these methods for real-time seismic event monitoring, using insights from the original paper.
 
 ## Pronounciaion
 Geldingadlir:  [ˈkɛltiŋaˌdalɪr̥]
