@@ -1,5 +1,7 @@
 # Tremor Clustering in Iceland's 2021 Geldingadalir Eruption
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Welcome to our project repository for the analysis of seismic tremor signals from the 2021 Geldingadalir eruption in Iceland. Using unsupervised machine learning, we aim to uncover hidden patterns in continuous seismic data to enhance understanding of volcanic activity.
 
 ## Project Overview
