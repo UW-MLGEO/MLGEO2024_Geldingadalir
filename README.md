@@ -25,18 +25,41 @@ We apply Deep Embedded Clustering (DEC), an unsupervised machine learning techni
 
 ## Environment Setup ##
 
-In progress
+```python
+git clone https://github.com/UW-MLGEO/MLGEO2024_Geldingadalir
+conda env create -f geldingadalir.yml
+conda activate ml
+pip install -r requirements.txt
+```
 
-## Repository Organization ##
-[Data download and raw data organization](notebooks/Download_Data.ipynb)
-
-[Basic data cleaning and manipulation](notebooks/Data_Cleaning.ipynb)
-
-[Organize data into model ready format](notebooks/Prepare_AI_Ready_Data.ipynb)
-
-[Exploratory data analysis](notebooks/EDA.ipynb)
-
-[Dimensionality discussion and reduction](notebooks/Dimensionality_Reduction.ipynb)
+## Repository Structure ##
+```python
+.
+├── ClusTremor-main                     # Original model
+├── LICENSE                             # MIT License information
+├── README.md
+├── docs                                # Supporting documentation
+│   └── test.txt
+├── notebooks
+│   ├── Data_Cleaning.ipynb             # Data Cleaning notebook - Alaska
+│   ├── Dimensionality_Reduction.ipynb  # Dimensionality Reduction notebook - Alaska
+│   ├── Download_Data.ipynb             # Data Download notebook - Alaska
+│   ├── EDA.ipynb                       # EDA notebook - Alaska
+│   ├── Prepare_AI_Ready_Data.ipynb     # Data Preparation notebook - Alaska
+│   ├── analysis_HOPS                   # Data Download and preparation for 9F.HOPS
+│   │   ├── Data_Cleaning.ipynb
+│   │   ├── Download_Data.ipynb
+│   │   └── data
+│   │       ├── clean
+│   │       └── raw
+│   └── data                            # Data - Alaska
+│       ├── ai_ready
+│       ├── clean
+│       └── raw
+├── tests                               # Staging for future test modules
+│   └── test_modules.py
+└── 
+```
 
 ## Pronounciaion
 Geldingadlir:  [ˈkɛltiŋaˌdalɪr̥]
