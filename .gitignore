@@ -1,5 +1,8 @@
+# specific to our project
 *.DS_Store
 *.mseed
+*.npy
+*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
