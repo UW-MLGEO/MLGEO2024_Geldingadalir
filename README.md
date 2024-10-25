@@ -10,6 +10,11 @@ In this project, we replicate and expand upon the findings from the paper <a hre
 
 We apply Deep Embedded Clustering (DEC), an unsupervised machine learning technique, to seismic data collected during the eruption. DEC allows us to automatically detect various eruption phases by clustering the continuous tremor signals. Notably, this analysis led to the identification of a previously unknown eruption phase by the authors, highlighting the potential for unsupervised learning in volcanic monitoring.
 
+<figure>
+    <img src = "images/fagradalsfjall_eruption.png" alt="Lava Flows From Fagradalsfjall" width="80%">
+    <figcaption> Lava Flows From Fagradalsfjall. Photo credit: NASA Earth Observatory
+</figure>
+
 ## Project Objectives ##
 
 - Understand and reproduce the results from our analysis of the 2021 Geldingadalir eruption.
