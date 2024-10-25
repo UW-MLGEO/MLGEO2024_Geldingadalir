@@ -2,7 +2,7 @@
 *.DS_Store
 *.mseed
 *.npy
-*.png
+notebooks/data/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
