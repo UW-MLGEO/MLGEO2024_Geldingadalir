@@ -30,6 +30,8 @@ We apply Deep Embedded Clustering (DEC), an unsupervised machine learning techni
 
 ## Environment Setup ##
 
+These instructions are for a *nix system.
+
 ```python
 git clone https://github.com/UW-MLGEO/MLGEO2024_Geldingadalir
 conda env create -f geldingadalir.yml
