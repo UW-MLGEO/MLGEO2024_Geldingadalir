@@ -10,6 +10,11 @@ In this project, we replicate and expand upon the findings from the paper <a hre
 
 We apply Deep Embedded Clustering (DEC), an unsupervised machine learning technique, to seismic data collected during the eruption. DEC allows us to automatically detect various eruption phases by clustering the continuous tremor signals. Notably, this analysis led to the identification of a previously unknown eruption phase by the authors, highlighting the potential for unsupervised learning in volcanic monitoring.
 
+<figure>
+    <img src = "images/fagradalsfjall_eruption.png" alt="Lava Flows From Fagradalsfjall" width="80%">
+    <figcaption> Lava Flows From Fagradalsfjall. Photo credit: NASA Earth Observatory
+</figure>
+
 ## Project Objectives ##
 
 - Understand and reproduce the results from our analysis of the 2021 Geldingadalir eruption.
@@ -24,6 +29,8 @@ We apply Deep Embedded Clustering (DEC), an unsupervised machine learning techni
 - Investigate real-time potential: Ultimately, we hope to explore the possibility of implementing these methods for real-time seismic event monitoring, using insights from the original paper.
 
 ## Environment Setup ##
+
+These instructions are for a *nix system.
 
 ```python
 git clone https://github.com/UW-MLGEO/MLGEO2024_Geldingadalir
@@ -46,12 +53,6 @@ pip install -r requirements.txt
 │   ├── Download_Data.ipynb             # Data Download notebook - Alaska
 │   ├── EDA.ipynb                       # EDA notebook - Alaska
 │   ├── Prepare_AI_Ready_Data.ipynb     # Data Preparation notebook - Alaska
-│   ├── analysis_HOPS                   # Data Download and preparation for 9F.HOPS
-│   │   ├── Data_Cleaning.ipynb
-│   │   ├── Download_Data.ipynb
-│   │   └── data
-│   │       ├── clean
-│   │       └── raw
 │   └── data                            # Data - Alaska
 │       ├── ai_ready
 │       ├── clean
@@ -59,6 +60,12 @@ pip install -r requirements.txt
 ├── tests                               # Staging for future test modules
 │   └── test_modules.py
 └── 
+```
+
+## Subproject Branches ## 
+```python
+9F_HOPS_analysis        # Data processing results from 9F.HOPS of the Iceland Reykjanes experiment 2021
+StHelens_analysis       # Data processing results from CC.STD of the Cascade Chain Volcano Monitoring network
 ```
 
 ## Pronounciaion
