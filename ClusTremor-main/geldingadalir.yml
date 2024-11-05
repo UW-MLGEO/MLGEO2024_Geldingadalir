@@ -4,6 +4,7 @@ channels:
   - defaults
   - anaconda
 dependencies:
+  - obspy
   - bzip2
   - ca-certificates
   - libexpat
