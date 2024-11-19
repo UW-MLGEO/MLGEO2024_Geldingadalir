@@ -169,3 +169,9 @@ cython_debug/
 #.idea/
 notebooks/HVUWB_analysis/data/plots/10_hvuwb_processed.png
 notebooks/HVUWB_analysis/autoencoder-model.pth
+Research_Relevance.md
+notebooks/AutoML_Hyperparameter_Tuning.ipynb
+notebooks/Clustering_Analysis.ipynb
+notebooks/Computational_Time_Analysis.ipynb
+notebooks/EDA.ipynb
+notebooks/Model_Training_Assessment.ipynb
