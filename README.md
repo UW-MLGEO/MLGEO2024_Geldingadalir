@@ -51,19 +51,22 @@ pip install -r requirements.txt
 │   └── contribution_chart.png
 │   └── fagradalsfjall_eruption.png         # Image of the eruption for README.md
 ├── notebooks                               
-│   ├── AutoML_Hyperparameter_Tuning.ipynb  # Hyperparameter Tuning notebook with CML
-│   ├── Clustering_Analysis.ipynb           # Clustering Analysis notebook 
+│   ├── AutoML_Hyperparameter_Tuning.ipynb  # Hyperparameter Tuning notebook with CML - Alaska
+│   ├── Clustering_Analysis.ipynb           # Clustering Analysis notebook  - Alaska
 │   ├── Computational_Time_Analysis.ipynb   # 
-│   ├── Data_Cleaning.ipynb                 # Data Cleaning notebook 
-│   ├── Dimensionality_Reduction.ipynb      # Dimensionality Reduction notebook 
-│   ├── Download_Data.ipynb                 # Data Download notebook 
-│   ├── EDA.ipynb                           # EDA notebook
-│   ├── Model_Training_Assessment.ipynb     # Assessment on CML clustering
-│   ├── Prepare_AI_Ready_Data.ipynb         # Data Preparation notebook 
-│   └── data                                # Data 
+│   ├── Data_Cleaning.ipynb                 # Data Cleaning notebook - Alaska
+│   ├── Dimensionality_Reduction.ipynb      # Dimensionality Reduction notebook - Alaska 
+│   ├── Download_Data.ipynb                 # Data Download notebook - Alaska
+│   ├── EDA.ipynb                           # EDA notebook - Alaska
+│   ├── Model_Training_Assessment.ipynb     # Assessment on CML clustering - Alaska
+│   ├── Prepare_AI_Ready_Data.ipynb         # Data Preparation notebook  - Alaska
+│   └── data                                # Data - Alaska
 │       ├── ai_ready
 │       ├── clean
 │       └── raw
+│   └── HOPS_analysis                       # Data processing results from 9F.HOPS of the Iceland Reykjanes experiment 2021
+│   └── NUPH_analysis                       # Data processing results from 9F.NUPH of the Iceland Reykjanes experiment 2021
+│   └── HVUWB_analysis                      # Data processing results from HV.UWB of the Hawaiian Volcano Observatory's network
 ├── tests                                   # Staging for future test modules
 │   └── test_modules.py
 └── 
@@ -71,8 +74,8 @@ pip install -r requirements.txt
 
 ## Subproject Branches ## 
 ```python
-9F_HOPS_analysis        # Data processing results from 9F.HOPS of the Iceland Reykjanes experiment 2021
-HVUWB_analysis          # Data processing results from HV.UWB of the Hawaiian Volcano Observatory's network
+jenwils_analysis        # Data processing results from 9F.HOPS and 9F.NUPH of the Iceland Reykjanes experiment 2021
+                        # Data processing results from HV.UWB of the Hawaiian Volcano Observatory's network
 Hess_Eli                # Data processing results from AV.PVV of the Alaska Volcano Observatory's network
 Shishaldin_analysis     # Data processing results from AV.SSLS of the Alaska Volcano Observatory's network
 Sitkin_analysis         # Data processing results from AV.GSTD of the Alaska Volcano Observatory's network
