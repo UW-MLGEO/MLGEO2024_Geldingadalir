@@ -71,17 +71,6 @@ pip install -r requirements.txt
 └── 
 ```
 
-## Subproject Branches ## 
-```python
-jenwils_analysis        # Data processing results from 9F.HOPS and 9F.NUPH of the Iceland Reykjanes experiment 2021
-                        # Data processing results from HV.UWB of the Hawaiian Volcano Observatory's network
-Hess_Eli                # Data processing results from AV.PVV of the Alaska Volcano Observatory's network
-Shishaldin_analysis     # Data processing results from AV.SSLS of the Alaska Volcano Observatory's network
-Sitkin_analysis         # Data processing results from AV.GSTD of the Alaska Volcano Observatory's network
-StHelens_analysis       # Data processing results from CC.STD of the Cascade Chain Volcano Monitoring network
-StHelens2               # Data processing results from CC.SEP of the Cascade Chain Volcano Monitoring network
-```
-
 ## Pronounciaion
 Geldingadlir:  [ˈkɛltiŋaˌdalɪr̥]
 
