@@ -48,7 +48,6 @@ pip install -r requirements.txt
 ├── docs                                    # Supporting documentation
 │   └── test.txt
 ├── images
-│   └── contribution_chart.png
 │   └── fagradalsfjall_eruption.png         # Image of the eruption for README.md
 ├── notebooks                               
 │   ├── AutoML_Hyperparameter_Tuning.ipynb  # Hyperparameter Tuning notebook with CML - Alaska
