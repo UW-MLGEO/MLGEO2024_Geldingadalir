@@ -34,8 +34,8 @@ These instructions are for a *nix system.
 
 ```python
 git clone https://github.com/UW-MLGEO/MLGEO2024_Geldingadalir
-conda env create -f geldingadalir.yml
-conda activate ml
+conda env create -f environment.yml
+conda activate mlgeo
 pip install -r requirements.txt
 ```
 
