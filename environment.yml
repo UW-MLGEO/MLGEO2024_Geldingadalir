@@ -1,4 +1,4 @@
-name: ml
+name: mlgeo
 channels:
   - conda-forge
   - defaults
