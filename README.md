@@ -67,7 +67,7 @@ pip install -r requirements.txt
 │   └── NUPH_analysis                       # Data processing results from 9F.NUPH of the Iceland Reykjanes experiment 2021
 │   └── HVUWB_analysis                      # Data processing results from HV.UWB of the Hawaiian Volcano Observatory's network
 │   └── AVPVV_analysis/data                 # Data processing results from AV.PVV
-│   └── Classic_ML                          # Classic Machine Learning notebook for alternate analysis
+│   └── Classic_ML                          # Classic Machine Learning notebook for alternate analysis, includes CML results for select DEC stations
 ├── tests                                   # Staging for future test modules
 │   └── test_modules.py
 └── 
