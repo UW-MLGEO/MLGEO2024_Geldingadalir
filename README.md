@@ -42,30 +42,44 @@ pip install -r requirements.txt
 ## Repository Structure ##
 ```python
 .
-├── ClusTremor-main                     # Original model
-├── LICENSE                             # MIT License information
+├── ClusTremor-main                         # Original model
+├── LICENSE                                 # MIT License information
 ├── README.md
-├── docs                                # Supporting documentation
+├── docs                                    # Supporting documentation
 │   └── test.txt
-├── notebooks
-│   ├── Data_Cleaning.ipynb             # Data Cleaning notebook - Alaska
-│   ├── Dimensionality_Reduction.ipynb  # Dimensionality Reduction notebook - Alaska
-│   ├── Download_Data.ipynb             # Data Download notebook - Alaska
-│   ├── EDA.ipynb                       # EDA notebook - Alaska
-│   ├── Prepare_AI_Ready_Data.ipynb     # Data Preparation notebook - Alaska
-│   └── data                            # Data - Alaska
+├── images
+│   └── fagradalsfjall_eruption.png         # Image of the eruption for README.md
+├── notebooks                               
+│   ├── AutoML_Hyperparameter_Tuning.ipynb  # Hyperparameter Tuning notebook with CML - Alaska
+│   ├── Clustering_Analysis.ipynb           # Clustering Analysis notebook  - Alaska
+│   ├── Computational_Time_Analysis.ipynb   # 
+│   ├── Data_Cleaning.ipynb                 # Data Cleaning notebook - Alaska
+│   ├── Dimensionality_Reduction.ipynb      # Dimensionality Reduction notebook - Alaska 
+│   ├── Download_Data.ipynb                 # Data Download notebook - Alaska
+│   ├── EDA.ipynb                           # EDA notebook - Alaska
+│   ├── Model_Training_Assessment.ipynb     # Assessment on CML clustering - Alaska
+│   ├── Prepare_AI_Ready_Data.ipynb         # Data Preparation notebook  - Alaska
+│   └── data                                # Data - Alaska
 │       ├── ai_ready
 │       ├── clean
 │       └── raw
-├── tests                               # Staging for future test modules
+│   └── HOPS_analysis                       # Data processing results from 9F.HOPS of the Iceland Reykjanes experiment 2021
+│   └── NUPH_analysis                       # Data processing results from 9F.NUPH of the Iceland Reykjanes experiment 2021
+│   └── HVUWB_analysis                      # Data processing results from HV.UWB of the Hawaiian Volcano Observatory's network
+├── tests                                   # Staging for future test modules
 │   └── test_modules.py
 └── 
 ```
 
 ## Subproject Branches ## 
 ```python
-9F_HOPS_analysis        # Data processing results from 9F.HOPS of the Iceland Reykjanes experiment 2021
+jenwils_analysis        # Data processing results from 9F.HOPS and 9F.NUPH of the Iceland Reykjanes experiment 2021
+                        # Data processing results from HV.UWB of the Hawaiian Volcano Observatory's network
+Hess_Eli                # Data processing results from AV.PVV of the Alaska Volcano Observatory's network
+Shishaldin_analysis     # Data processing results from AV.SSLS of the Alaska Volcano Observatory's network
+Sitkin_analysis         # Data processing results from AV.GSTD of the Alaska Volcano Observatory's network
 StHelens_analysis       # Data processing results from CC.STD of the Cascade Chain Volcano Monitoring network
+StHelens2               # Data processing results from CC.SEP of the Cascade Chain Volcano Monitoring network
 ```
 
 ## Pronounciaion
